@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "forkRepository": "https://github.com/retrom-project/Gearboy",
+  "defaultBranch": "retrom/g340ebe3c2588",
+  "upstreamMirrorBranch": "master",
+  "upstreams": [
+    {
+      "role": "emulatorjs-core",
+      "repository": "https://github.com/drhelius/Gearboy",
+      "refType": "COMMIT",
+      "ref": "340ebe3c258846560cc93d93ca4359f506fafb70",
+      "commit": "340ebe3c258846560cc93d93ca4359f506fafb70"
+    },
+    {
+      "role": "emulatorjs-retroarch-linker",
+      "repository": "https://github.com/EmulatorJS/RetroArch",
+      "refType": "COMMIT",
+      "ref": "6dd4353937ef48b6ec0bfbdbb15d1c5992d86927",
+      "commit": "6dd4353937ef48b6ec0bfbdbb15d1c5992d86927"
+    }
+  ],
+  "adapterAbi": "emulatorjs-state-v1",
+  "releaseAssets": ["gearboy-wasm.data", "LICENSE", "source.tar.gz", "rpg-runtime-release.json"]
+}
